@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="AppU02.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppU02"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:ConnectionId='2' x:Name="ClickButton">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="640*"/>
+            <RowDefinition Height="27*"/>
+        </Grid.RowDefinitions>
+        <Button x:ConnectionId='3' Content="Click Here" Margin="0,84,0,0" VerticalAlignment="Top" Height="66" Width="152" HorizontalAlignment="Center" FontSize="24"                     />
+        <TextBlock x:ConnectionId='4' x:Name="RTextBlock" HorizontalAlignment="Center" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Center" Height="73" Width="230" FontSize="48" FontStyle="Normal" TextAlignment="Center"/>
+
+    </Grid>
+</Page>
+

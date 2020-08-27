@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="AppU04.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppU04"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_loaded"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutGrid" >
+        <TextBlock x:Name="MessageTextBlock" HorizontalAlignment="Center" Margin="0,237,0,0" Text="TextBlock" TextWrapping="Wrap" VerticalAlignment="Top" Height="105" Width="226" FontSize="24" TextAlignment="Center"/>
+        <!--<Button x:Name="ClickMeButton" 
+                Content="Click Me" 
+                Margin="20,22,0,0" 
+                VerticalAlignment="Top" 
+                FontSize="22" 
+                Background="Red" 
+                Height="100" 
+                Width="200" Click="ClickMeButton_Click"/>
+-->
+    </Grid>
+</Page>
