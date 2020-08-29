@@ -1,0 +1,36 @@
+﻿<Page
+    x:Class="Session1.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Session1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="1027">
+
+    <Grid Margin="50">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Rectangle Fill="Blue"
+                       Width="200"
+                       Height="200"
+                   Grid.Row="2"
+                   Grid.Column="2"/>
+        <Ellipse Fill="Red" Width="175" Height="175" Grid.Row="1"
+                   Grid.Column="1"/>
+        <Polygon Fill="Green"
+                 Points="0,0, 275,0 275,200"
+                 Grid.Row="0"
+                 Grid.Column="0" Margin="0,10,0,299" Grid.RowSpan="2"
+                 />
+
+    </Grid>
+</Page>
