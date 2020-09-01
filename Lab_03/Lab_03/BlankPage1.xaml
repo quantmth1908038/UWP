@@ -1,0 +1,50 @@
+﻿<Page
+    x:Class="Lab_03.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lab_03"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Height="835" Width="1626">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock FontSize="72">Ipsum diam</TextBlock>
+        <Grid Grid.Row="1" Width="1497" AutomationProperties.AccessibilityView="Raw">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock FontSize="22" TextWrapping="Wrap" Height="596" VerticalAlignment="Center" Padding="10,0,5,0" Text="Sanctus erat lorem et dolor erat lorem justo accusam vel nulla sadipscing sed in sadipscing sit facilisis erat duis voluptua ut et gubergren ipsum diam ea diam labore lobortis est sit velit eirmod dolor iriure et dolores tempor dolor et no feugiat nulla elit gubergren laoreet rebum diam consectetuer vero sed takimata lobortis nulla diam et assum suscipit diam est et dolore molestie et justo ipsum sanctus amet ipsum kasd dolore amet dolore facilisis consequat et sadipscing tation aliquam consectetuer eleifend sanctus ut aliquyam diam eirmod  " Margin="-60,0,0,0" />
+            <TextBlock Grid.Column="1" FontSize="22" TextWrapping="Wrap" Height="596" VerticalAlignment="Center" Padding="20,0,21,0" AutomationProperties.AccessibilityView="Content" >Dolor suscipit labore consetetur gubergren nulla invidunt elitr molestie clita takimata clita euismod ea accusam invidunt odio lorem nihil dolor et kasd ut lorem amet invidunt vel ullamcorper duo lorem voluptua in sanctus mazim dolore et no congue diam et amet dolor sea tincidunt sit at stet labore ipsum invidunt at augue accusam illum enim sed erat aliquyam lorem eos nibh autem vero ut ipsum sit takimata tempor et ut diam takimata consetetur diam ipsum wisi dolor dolor sea accusam eos dolore sit ad vero stet ea odio sed in vulputate aliquyam amet tempor in erat dolor vero eirmod elit duo diam dolor duis elitr justo lobortis amet eu sit accusam nostrud voluptua sed sit eos lorem takimata at eos amet lobortis no at erat ad vulputate diam et ut sanctus delenit rebum dolor dolore sit magna et no aliquip tincidunt sed lorem dolore nonumy sed eos et tempor nulla justo possim ad dolore no eirmod duo voluptua sit tation aliquyam enim nulla lorem nostrud takimata ea sea eros lorem duo amet dolores eos nonummy at duis voluptua invidunt amet nulla invidunt molestie elitr et et sit congue et lorem sed eirmod gubergren sed et rebum ut accumsan facilisi feugiat</TextBlock>
+            <Grid Grid.Column="2" Margin="0,0,-64,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="163*"/>
+                    <RowDefinition Height="135*"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="2*"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Rectangle Fill="Blue"/>
+                    <Grid Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <Rectangle Fill="Red"/>
+                        <Rectangle Grid.Row="1" Fill="Yellow"/>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
+
+    </Grid>
+</Page>
