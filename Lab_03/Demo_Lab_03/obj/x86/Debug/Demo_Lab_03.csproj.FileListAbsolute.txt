@@ -48,3 +48,8 @@ D:\Aptech\UWP\Lab_03\Demo_Lab_03\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Aptech\UWP\Lab_03\Demo_Lab_03\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 D:\Aptech\UWP\Lab_03\Demo_Lab_03\obj\x86\Debug\ProjectArchitectures.txt
 D:\Aptech\UWP\Lab_03\Demo_Lab_03\obj\x86\Debug\.winmd_cache\$Microsoft.UI.Xaml.Markup.winmd_636885058160000000.json
+D:\Aptech\UWP\Lab_03\Demo_Lab_03\bin\x86\Debug\BlankPage2.xbf
+D:\Aptech\UWP\Lab_03\Demo_Lab_03\obj\x86\Debug\BlankPage2.g.i.cs
+D:\Aptech\UWP\Lab_03\Demo_Lab_03\obj\x86\Debug\BlankPage2.g.cs
+D:\Aptech\UWP\Lab_03\Demo_Lab_03\obj\x86\Debug\BlankPage2.xaml
+D:\Aptech\UWP\Lab_03\Demo_Lab_03\obj\x86\Debug\BlankPage2.xbf

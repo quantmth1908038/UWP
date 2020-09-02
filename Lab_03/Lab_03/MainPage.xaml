@@ -18,7 +18,7 @@
         </Grid.RowDefinitions>
         <Button Content="Save" Margin="121,30,0,0" VerticalAlignment="Top" Height="34" Grid.Row="4" Width="59"/>
         <TextBlock Grid.Row="0" HorizontalAlignment="Center" Margin="0,128,0,0" Text="ACME Sale Corp" TextWrapping="Wrap" VerticalAlignment="Top" Height="51" Width="340" SelectionChanged="TextBlock_SelectionChanged" FontSize="36" TextAlignment="Left"/>
-        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Height="30" Width="113" FontSize="16" TextAlignment="Left" Text="First Name:"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Center" Height="30" Width="113" FontSize="16" TextAlignment="Left" Text="First Name:" SelectionChanged="TextBlock_SelectionChanged"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Center" Height="30" Width="113" FontSize="16" TextAlignment="Left"><Run Text="Last Name:"/><LineBreak/><Run/></TextBlock>
         <TextBox HorizontalAlignment="Left" Margin="121,0,0,0" Grid.Row="1" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="220" Height="32"/>
         <TextBox HorizontalAlignment="Left" Margin="121,0,0,0" Grid.Row="2" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="220" Height="32"/>

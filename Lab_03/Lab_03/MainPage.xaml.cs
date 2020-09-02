@@ -26,5 +26,6 @@ namespace Lab_03
         {
             this.InitializeComponent();
         }
+
     }
 }

@@ -10,3 +10,7 @@ D:\Aptech\UWP\Lab_03\Lab_03\obj\x86\Debug\App.xbf
 D:\Aptech\UWP\Lab_03\Lab_03\obj\x86\Debug\MainPage.xbf
 D:\Aptech\UWP\Lab_03\Lab_03\obj\x86\Debug\XamlSaveStateFile.xml
 D:\Aptech\UWP\Lab_03\Lab_03\obj\x86\Debug\Lab_03.csproj.CoreCompileInputs.cache
+D:\Aptech\UWP\Lab_03\Lab_03\obj\x86\Debug\BlankPage1.g.i.cs
+D:\Aptech\UWP\Lab_03\Lab_03\obj\x86\Debug\BlankPage1.g.cs
+D:\Aptech\UWP\Lab_03\Lab_03\obj\x86\Debug\BlankPage1.xaml
+D:\Aptech\UWP\Lab_03\Lab_03\obj\x86\Debug\BlankPage1.xbf
