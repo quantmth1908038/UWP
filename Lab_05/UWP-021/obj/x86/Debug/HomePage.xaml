@@ -1,0 +1,65 @@
+﻿<Page
+    x:Class="UWP_021.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP_021"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid Background="#FFE2E2E2" Height="543" VerticalAlignment="Top">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"/>
+                <RowDefinition Height="auto"/>
+            </Grid.RowDefinitions>
+            <Grid Grid.Row="0" Height="300">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                
+                <Image Source="/Assets/1.jpg" Stretch="Fill" Margin="0,0,2,0" />
+                <RelativePanel>
+                    <TextBlock x:ConnectionId='6' Name="Title1" Foreground="White" FontSize="19" TextWrapping="Wrap" Width="296" RelativePanel.Above="Tag1" Margin="25,0,0,10">Dolor et rebum et kasd at labore tempor suscipit vulputate</TextBlock>
+                    <Ellipse x:ConnectionId='7' Name="dot1" Fill="White" Width="13" Height="13" RelativePanel.AlignBottomWithPanel="True" Margin="25,0,0,12"/>
+                    <TextBlock x:ConnectionId='8' Name="Tag1" Foreground="White" RelativePanel.RightOf="dot1" RelativePanel.AlignBottomWithPanel="True" Margin="10,0,0,10">dynamicus</TextBlock>
+                </RelativePanel>
+                <Image Source="/Assets/2.jpg" Grid.Column="1" Stretch="Fill" Margin="2,0,0,0" />
+                <RelativePanel Grid.Column="1">
+                    <TextBlock x:ConnectionId='3' Name="Title2" Foreground="White" FontSize="19" TextWrapping="Wrap" Width="296" RelativePanel.Above="Tag2" Margin="25,0,0,10">Dolor et rebum et kasd at labore tempor suscipit vulputate</TextBlock>
+                    <Ellipse x:ConnectionId='4' Name="dot2" Fill="White" Width="13" Height="13" RelativePanel.AlignBottomWithPanel="True" Margin="25,0,0,12"/>
+                    <TextBlock x:ConnectionId='5' Name="Tag2" Foreground="White" RelativePanel.RightOf="dot2" RelativePanel.AlignBottomWithPanel="True" Margin="10,0,0,10">dynamicus</TextBlock>
+                </RelativePanel>
+            </Grid>
+            <StackPanel Grid.Row="1" Orientation="Horizontal">
+                <StackPanel Background="White" Margin="30,20,0,0" Width="230">
+                    <Image Source="/Assets/3.jpg" Grid.Column="1" Stretch="Fill" Width="230" Height="150"/>
+                    <TextBlock TextWrapping="Wrap" Margin="10,10,0,15" FontSize="16">Clita sea diam et adipiscing dolor justo aliquyam</TextBlock>
+                </StackPanel>
+                <StackPanel Background="White" Margin="15,20,0,0" Width="230">
+                    <Image Source="/Assets/4.jpg" Grid.Column="1" Stretch="Fill" Width="230" Height="150"/>
+                    <TextBlock TextWrapping="Wrap" Margin="10,10,0,15" FontSize="16">Clita sea diam et adipiscing dolor justo aliquyam</TextBlock>
+                </StackPanel>
+                <StackPanel Background="White" Margin="15,20,0,0" Width="230">
+                    <Image Source="/Assets/5.jpg" Grid.Column="1" Stretch="Fill" Width="230" Height="150"/>
+                    <TextBlock TextWrapping="Wrap" Margin="10,10,0,15" FontSize="15">Clita sea diam et adipiscing dolor justo aliquyam</TextBlock>
+                </StackPanel>
+                <StackPanel Margin="15,20,0,0" Width="230">
+                    <StackPanel Background="White" Margin="0,0,0,20">
+                        <TextBlock TextWrapping="Wrap" Margin="15,10,0,22" FontSize="16" Height="65">Clita sea diam et adipiscing dolor justo aliquyam</TextBlock>
+                        <RelativePanel>
+                            <Ellipse x:ConnectionId='2' Name="dot3" Fill="Orange" Width="13" Height="13" RelativePanel.AlignBottomWithPanel="True" Margin="15,0,0,12"/>
+                            <TextBlock RelativePanel.RightOf="dot3" RelativePanel.AlignBottomWithPanel="True" Margin="10,0,0,10" FontSize="11">dynamicus</TextBlock>
+                        </RelativePanel>
+                    </StackPanel>
+                    <StackPanel Background="White" Margin="0,0,0,20">
+                        <TextBlock TextWrapping="Wrap" Margin="15,10,0,30" FontSize="16">Clita sea diam et adipiscing dolor justo aliquyam</TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Page>
+
