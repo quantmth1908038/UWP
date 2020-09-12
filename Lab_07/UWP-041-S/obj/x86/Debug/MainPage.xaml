@@ -1,0 +1,78 @@
+﻿<Page x:ConnectionId='1'
+    x:Class="UWP_041_S.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWP_041_S"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:data="using:UWP_041_S.Models"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid Margin="20" VerticalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Title:" FontSize="24" Margin="20,30,20,30" />
+            <TextBox x:ConnectionId='9' FontSize="24" Name="TitleTextBox" Grid.Column="1" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
+            <TextBlock Grid.Row="1" Text="Author:" FontSize="24" Margin="10" VerticalAlignment="Center" />
+            <TextBox x:ConnectionId='10' FontSize="24" Grid.Row="1" Name="AuthorTextBox" Grid.Column="1" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
+            <TextBlock Grid.Row="2" Text="Price:" FontSize="24" Margin="10" VerticalAlignment="Center" />
+            <TextBox x:ConnectionId='11' FontSize="24" Grid.Row="2" Name="PriceTextBox" Grid.Column="1" Margin="10" VerticalAlignment="Center" HorizontalAlignment="Stretch"/>
+            <TextBlock Grid.Row="3" Text="Image:" FontSize="24" Margin="20,30,20,30" />
+            <ComboBox x:ConnectionId='12'                               Width="200" Height="100" Name="CoverComboBox" Grid.Row="3" Grid.Column="1" Margin="10,20,10,20">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate                        >
+                        <Image x:ConnectionId='15' Stretch="Uniform"                            />
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Button x:ConnectionId='13' Name="AddButton"                         Grid.Row="4" Grid.Column="1" Content="Add" FontSize="24" Margin="10,20,10,20"/>
+
+        </Grid>
+
+        <GridView x:ConnectionId='2' Grid.Row="2"                              Margin="20">
+            <GridView.ItemTemplate>
+                <DataTemplate                       >
+                    <StackPanel x:ConnectionId='4' HorizontalAlignment="Center" Margin="10">
+                        <Image x:ConnectionId='5'                         Width="100" Height="100" />
+                        <StackPanel Orientation="Horizontal" 
+                                    Margin="0,10,0,0" 
+                                    HorizontalAlignment="Center">
+                            <TextBlock Text="Title: " Margin="0,0,5,0" />
+                            <TextBlock x:ConnectionId='8'                       />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" 
+                                    Margin="0,10,0,0" 
+                                    HorizontalAlignment="Center">
+                            <TextBlock Text="Author: " Margin="0,0,5,0" />
+                            <TextBlock x:ConnectionId='7'                        />
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" 
+                                    Margin="0,10,0,0" 
+                                    HorizontalAlignment="Center">
+                            <TextBlock Text="Price: " Margin="0,0,5,0" />
+                            <TextBlock x:ConnectionId='6'                       />
+                        </StackPanel>
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+
+
+        </GridView>
+    </Grid>
+</Page>
+
